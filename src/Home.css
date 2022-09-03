@@ -1,0 +1,99 @@
+.banner_img {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+  height: 410px;
+  width: 100%;
+}
+
+
+/*--------------------------------------------------------------------*/
+.banner__inner.title{
+font-size: 50px;
+line-height: 1;
+font-weight: 300;
+margin-bottom: 40px;
+}
+.banner__inner .desc {
+font-size: 24px;
+line-height: 1.5;
+font-weight: 300;
+margin-bottom: 70px;
+}
+.banner__inner .desc a {
+display: block;
+color: #fff;
+}
+.banner__inner .small {
+font-size: 16px;
+text-decoration: underline;
+}
+
+/*--------------------------------------------------------------------*/
+
+.image__inner {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 200px;
+}
+.image {
+  width: 49%;
+  height: 370px;
+  padding: 203px 30px 30px 30px;
+  box-sizing: border-box;
+  color: #fff;
+}
+.image.img1 {
+  background: url(./image/image_bg01.jpg) no-repeat center / cover;
+}
+.image.img2 {
+  background: url(./image/image_bg02.jpg) no-repeat center / cover;
+}
+.image__title {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+.image__btn {
+  font-size: 16px;
+  font-weight: 300;
+  color: #fff;
+  background-color: #B45A30;
+  padding: 10px 20px;
+  display: inline-block;
+  text-decoration-line: none;
+}
+.image__btn.yellow {
+  background-color: #B59140;
+}
+
+.section {
+  padding: 30px 0;
+  height: 540px;
+  margin-bottom: 50px;
+}
+.section > h2 {
+  font-size: 50px;
+  line-height: 1;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: 400;
+}
+.section > p {
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 1.5;
+  margin-bottom: 70px;
+  color: #666;
+  text-align: center;
+}
+/* ---------??----- */
+.section > span {
+  display: block;
+  text-align: center;
+  font-size: 16px;
+  text-decoration: underline;
+  margin-bottom: 14px;
+}
+/* ---------??----- */

@@ -1,0 +1,17 @@
+/*--------------- 주 컨텐츠 ---------------*/
+.board {
+margin: 0 auto;
+margin-bottom: 70px;
+width: 800px;
+}
+
+/*--------------- 버튼 ---------------*/
+.wbutton > button{
+    float: right;
+    height: 50px;
+    width: 80px;
+    margin: 10px 0;
+    border-radius: 8px;
+    font-size: 17px;
+}
+

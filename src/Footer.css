@@ -1,0 +1,40 @@
+.footerType{
+height: 400px;
+background-color: #F2F2F2;
+border-top: 2px solid #BCBABA;
+}
+
+.footer__inner {
+width: 260px;
+margin: 0 auto;
+padding: 100px 20px 64px 20px;
+}
+
+.footer__imglogo {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  width: 64px;
+  height: 64px;
+  color: #fff;
+  border-radius: 50px;
+}
+.footer__imglogo > img {
+  margin-right: 16px;
+}
+
+.footer__about {
+text-align: center;
+}
+
+.famous_saying {
+margin-top: 60px;
+}
+
+.team_name {
+margin: 20px 0;
+}
+
+.copy {
+font-size: 11px;
+}

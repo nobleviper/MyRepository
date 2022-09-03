@@ -1,0 +1,89 @@
+/*------------- 헤더 고정 -------------*/
+.header {
+   margin-left: auto;
+   margin-right: auto;
+   background-color: white;
+   position: sticky;
+   top: 0;
+   z-index: 100;
+   border-bottom: 2px solid #BCBABA;
+}
+/*------------- 네비게이션 그룹-------------*/
+.header_nav{
+    display: flex;
+    flex-direction: column;
+}
+
+/*------------- 로고 -------------*/
+.header_logo{
+    width: 150px;
+    height: 100px;
+    object-fit:contain;
+    margin: 0 20px;
+}
+/*------------- 헤더1 -------------*/
+.header_menu{
+    display: flex;
+    align-items: center;
+    width: 1050px;
+    height: inherit;
+    margin: 0 auto;
+    text-align: right;
+}
+
+.header_menu > ul{
+    margin-left: 440px;
+}
+
+/*------------- 헤더1 네비게이션 -------------*/
+.header_menu > ul > li {
+    display: inline;
+    padding: 5px 15px;
+    margin: 0 5px;
+    transition: background-color 0.33s;
+    font-size: 15px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+/*------------- 목록바 -------------*/
+.header_nav2{
+    height: 70px;
+    background-color: #91DEF5;
+    border-top: 1px solid #BCBABA;
+    display: flex;
+    align-items: center;
+}
+.nav_padding{
+    width: 1%;
+}
+
+.nav_menu {
+    width: 98%;
+    text-align:center;
+}
+.nav_menu > ul > li {
+    display: inline;
+}
+.nav_menu > ul > li > a {
+    padding: 13px 30px;
+    margin: 0 53px;
+    transition: background-color 0.33s;
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 36px;
+    text-align: center;
+}
+.nav_menu > ul > li > a:hover {
+    background-color: #F1F1F1;
+    border-radius: 5px;
+}
+
+
+
+

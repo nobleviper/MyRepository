@@ -1,0 +1,45 @@
+/*--------------- 주 컨텐츠 ---------------*/
+.boardwrite {
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 80px;
+    width: 800px;
+    height: 680px;
+}
+
+.title_write {
+    margin: 30px;
+    height: 100px;
+    font-size: 20px;
+}
+
+.title_write > .title_writeInput {
+    margin-top: 10px;
+    width: 730px;
+    height: 50px;
+    font-size: 20px;
+}
+
+.maintext_write {
+    margin: 30px;
+    height: 100px;
+    font-size: 20px;
+}
+
+.maintext_write > .maintext_writeInput {
+    margin-top: 10px;
+    width: 730px;
+    height: 500px;
+    font-size: 20px;
+}
+
+/*--------------- 버튼 ---------------*/
+.uButton > button {
+    font-size: 17px;
+    float: right;
+    height: 50px;
+    width: 80px;
+    margin-top: 430px;
+    margin-right: 32px;
+    border-radius: 8px;
+}
